@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+:root {
+  --primary-font:   font-family: "Poppins", sans-serif;
+  --primary-color: #5a7fff;
+  --secondary-color: #ff8a76;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: var(--primary-font);
+
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+button {
+  display: inline-block;
+  outline: none;
+  border: 0;
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #e1e3fb;
+    text-transform: uppercase;
+}
+
+.secodary-button {
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #e1e3fb;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.icon {
+   width: 20px;
+
+}
+
+header {
+    max-width: 1200px;
+    margin: auto;
+    background: #e1e3fb;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 30px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+header nav{}
+header nav ul {
+    display: flex;
+    gap: 50px;
+    margin-left: 35px;
+    align-items: center;
+    height: 100%;
+}
+header nav ul li{}
+header nav ul li a{
+    text-transform: uppercase;
+}
+header .contact-info{
+    display: flex;
+    gap: 10px;
+}
+
+.header-icons ul {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    align-items: center;
+}
+
+
+.hero-section {
+    background-image: url(./assests/images/vecteezy_abstract-background-design-background-texture-design-with_18752867-1.jpg);
+    height: 70vh;
+    position: relative;
+}
+
+.hero-section .content {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.content-image img {
+    width: 500px;
+    height: 313px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    margin-top: 12%;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* shape devider css */
+.custom-shape-divider-bottom-1710353821 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1;
+}
+
+.custom-shape-divider-bottom-1710353821 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.custom-shape-divider-bottom-1710353821 .shape-fill {
+    fill: #FFFFFF;
+}
