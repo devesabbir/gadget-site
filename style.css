@@ -81,7 +81,7 @@ header {
     right: 0;
     z-index: 9999;
 }
-header nav{}
+
 header nav ul {
     display: flex;
     gap: 50px;
@@ -89,7 +89,7 @@ header nav ul {
     align-items: center;
     height: 100%;
 }
-header nav ul li{}
+
 header nav ul li a{
     text-transform: uppercase;
 }
@@ -110,6 +110,7 @@ header .contact-info{
     background-image: url(./assests/images/vecteezy_abstract-background-design-background-texture-design-with_18752867-1.jpg);
     height: 70vh;
     position: relative;
+    
 }
 
 .hero-section .content {
@@ -117,16 +118,28 @@ header .contact-info{
     text-align: center;
 }
 
+.hero-section  .content h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.hero-section  .content p {
+    margin: 20px 0;
+}
+
 .content-image img {
-    width: 500px;
-    height: 313px;
+    max-width: 670px;
+    height: 350px;
     object-fit: cover;
     display: block;
     margin: auto;
-    margin-top: 12%;
+    margin-top: 4%;
     border-radius: 20px;
     position: relative;
     z-index: 2;
+
 }
 
 /* shape devider css */
@@ -148,5 +161,89 @@ header .contact-info{
 }
 
 .custom-shape-divider-bottom-1710353821 .shape-fill {
-    fill: #FFFFFF;
+    fill:#fff;
+}
+
+.service-section {
+    background: #fff;
+    padding: 230px 20px;
+    padding-bottom: 100px;
+}
+.service-content {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.service-section .service-item {
+    flex-basis: 30%;
+     display: flex;
+     gap:10px;
+}
+
+.service-section .service-item .right h3 {
+    color: #ff8a76;
+    font-size: 20px;
+}
+
+
+.left .icon {
+   
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ .icon-color-green{
+    background: green;
+  
+}
+
+.icon-color-red{
+    background: red;
+  
+}
+
+.icon-color-orange{
+    background: orange;
+  
+}
+
+
+.service-icon {
+    width: 30px;
+
+}
+
+
+/* product-rang-section start */
+.product-rang-section {
+    background-color: #f2f6ff;
+    padding: 100px 0;
+}
+.product-rang-section .content {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+   
+}
+.product-rang-section .content .about-image {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0;
+}
+
+.product-rang-section .content .about-image h3 {
+    font-size: 30px;
+}
+.product-rang-section .content .brand-image{
+    flex-basis: 50%;
+}
+.product-rang-section .content .brand-image img{
+    max-width: 550px;
+    height: 330px;
+    object-fit: cover;
 }
